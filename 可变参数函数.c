@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-
 /**
  * @brief 依次打印第一个参数后的数字
  * @param count	参数数量
@@ -10,7 +9,6 @@
 void
 print (int count, ...);
 
-
 int
 main ()
 {
@@ -18,7 +16,6 @@ main ()
 
 	return 0;
 }
-
 
 void
 print (int count, ...)
